@@ -27,8 +27,8 @@ def print_closest_words(vector, topn=5):
         print(f"{word}: {similarity:.4f}")
 
 
-print("Closest words to 'king - man + woman':")
-print_closest_words(model["king"] - model["man"] + model["woman"])
+print("Closest words to 'actor - man + woman':")
+print_closest_words(model["actor"] - model["man"] + model["woman"])
 
-print("Closest words to 'actor - he + she':")
-print_closest_words(model["actor"] - model["he"] + model["she"])
+print("\n\nClosest words to 'king - man + woman':")
+print_closest_words(model["king"] - model["man"] + model["woman"])
